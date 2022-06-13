@@ -1,9 +1,9 @@
 [package]
-name = "node-template"
+name = "hotchain"
 version = "4.0.0-dev"
 description = "A fresh FRAME-based Substrate node, ready for hacking."
-authors = ["Substrate DevHub <https://github.com/substrate-developer-hub>"]
-homepage = "https://substrate.io/"
+authors = ["kula <kula@live.com>"]
+homepage = "https://hotcard.xyz/"
 edition = "2021"
 license = "Unlicense"
 publish = false
@@ -14,7 +14,7 @@ build = "build.rs"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [[bin]]
-name = "node-template"
+name = "hotchain"
 
 [dependencies]
 clap = { version = "3.1.18", features = ["derive"] }
